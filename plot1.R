@@ -6,7 +6,6 @@ plot1<- function(){
         
         ## Parameters: none
         ## Assumes household_power_consumption.txt file located in working dir
-        
         ## read data
         powerdata <- read.table("./household_power_consumption.txt", stringsAsFactors = FALSE, header = TRUE, sep =";"  )
         
